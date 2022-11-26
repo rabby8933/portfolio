@@ -446,3 +446,6 @@ document.addEventListener("mousemove", (e) => {
 });
 })(jQuery, window)
 
+setTimeout(function () {
+  $(".loader_bg").fadeToggle();
+}, 2500);
