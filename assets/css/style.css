@@ -2235,6 +2235,11 @@ ol ul {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .rn-section-gap {
+    padding: 100px 12px;
+}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .ptb_lp--5 {
     padding: 5px 0;
   }
@@ -7118,6 +7123,7 @@ Custom Row
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+  
 }
 @media only screen and (max-width: 767px) {
   .row--20 > [class*=col], .row--20 > [class*=col-] {
@@ -7346,12 +7352,20 @@ Custom Row
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+    .header-style-2 .logo img{
+  width: 35%;
+
+}
+.hello-w{
+  display: none;
+}
 }
 @media only screen and (max-width: 767px) {
   .row--40 > [class*=col], .row--40 > [class*=col-] {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+  
 }
 
 .row--60 {
@@ -7369,6 +7383,13 @@ Custom Row
     margin-left: -15px;
     margin-right: -15px;
   }
+  .header-style-2 .logo img{
+  width: 35%;
+
+}
+.hello-w{
+  display: none;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .row--60 {
@@ -7562,6 +7583,7 @@ textarea:-ms-input-placeholder {
   display: inline-block;
   background: #ffffff;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #scrollUp {
     right: 20px;
@@ -11292,7 +11314,7 @@ body.template-color-1 {
 }
 @media only screen and (max-width: 767px) {
   .logo a img {
-    max-height: 54px;
+    max-height: 35px;
   }
 }
 
@@ -11333,7 +11355,7 @@ body.template-color-1 {
   transform: translateX(0px);
   border-right: 1px solid #121415;
   background: #212428;
-  padding: 50px 40px 40px;
+  padding: 15px 20px 40px;
   transition: all 0.3s ease-in-out 0s;
 }
 .left-header-style .logo-area a img {
@@ -11409,7 +11431,7 @@ body.template-color-1 {
   z-index: 99;
   width: auto;
   right: 0;
-  padding: 15px 30px;
+  padding: 15px;
   left: 0;
 }
 .header-style-2 .header-right .hamberger-menu i {
@@ -17141,6 +17163,9 @@ span.sr-only {
   .skill-style-1 li {
     flex-basis: 40%;
   }
+  .header-style-2 .logo{
+  display: block;
+}
 }
 @media only screen and (max-width: 479px) {
   .skill-style-1 li {
@@ -17266,6 +17291,9 @@ span.sr-only {
   .footer-style-2 .logo-thumbnail {
     text-align: left;
   }
+  .header-style-2 .logo{
+  display: block;
+}
 }
 .footer-style-2 .logo-thumbnail img {
   max-width: 100%;
@@ -17400,7 +17428,6 @@ span.sr-only {
 .rn-blog {
   cursor: pointer;
   text-align: left;
-  padding: 30px;
   position: relative;
   border-radius: 20px;
   background: var(--background-color-1);
@@ -17427,7 +17454,7 @@ span.sr-only {
 .rn-blog .inner .thumbnail a {
   display: block;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 .rn-portfolio .inner .thumbnail a img,
 .rn-blog .inner .thumbnail a img {
@@ -17560,11 +17587,11 @@ span.sr-only {
 }
 .rn-portfolio:hover .thumbnail a img,
 .rn-blog:hover .thumbnail a img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .rn-portfolio:hover video,
 .rn-blog:hover video {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 @media only screen and (max-width: 767px) {
@@ -18166,6 +18193,10 @@ Rn Slick Dots Style
   .testimonial-activation {
     margin: 0px;
   }
+
+  .main-logo img{
+    display: none;
+  }
 }
 .testimonial-activation button.slide-arrow {
   font-size: 25px;
@@ -18211,6 +18242,10 @@ Rn Slick Dots Style
     bottom: -70px;
     display: none !important;
   }
+
+.main-logo img{
+  display: none;
+}
 }
 @media only screen and (max-width: 767px) {
   .testimonial-activation button.slide-arrow {
@@ -19791,7 +19826,7 @@ body.white-version .rn-btn-ulderline {
   position: absolute;
   top: 15px;
   right: 15px;
-  font-size: 32px !important;
+  font-size: 32px;
   font-weight: 500;
   color: #fafafa;
 }
@@ -19951,7 +19986,7 @@ body.white-version .rn-btn-ulderline {
     width: 50px;
     padding: 7px;
     border-radius: 50px !important;
-  box-shadow: 5px 5px 10px #d1d9e614, 0px 0px 10px #ffffff1a;
+  box-shadow: 5px 5px 10px #d1d9e614, 0px 0px 10px #ffffff0d;
 }
 .modal-dialog-centered .meta{
   cursor: pointer;
@@ -20107,9 +20142,6 @@ body.white-version .rn-btn-ulderline {
   margin-bottom: 5px;
   transition: var(--transition);
 }
-.tab-content{
-  padding-top: 20px;
-}
 .popup-mobile-menu .inner .menu-top .menu-header img{
   border-radius: 50px;
 }
@@ -20129,9 +20161,10 @@ body.white-version .rn-btn-ulderline {
   padding-top: 55px;
 }
 .hello-w {
-    top: 20px;
+    /* top: 20px;
     right: auto;
-    font-size: 22px !important;
+    font-size: 22px !important; */
+    display: none;
 }
 .slider-style-5 .cd-headline span {
     font-size: 18px;
@@ -20164,6 +20197,7 @@ body.white-version .rn-btn-ulderline {
   left: 14px;
   z-index: 1;
 }
+
 .exprience-highlight {
     display: flex;
     margin: 50px 6px 0;
@@ -20316,4 +20350,70 @@ body.white-version .rn-btn-ulderline {
   position: absolute;
   top: calc(50% - 1.25em);
   left: calc(50% - 1.25em);
+}
+.rn-portfolio .inner .content {
+    padding: 18px 20px 30px;
+}
+.header-style-2 .logo{
+  /* display: none; */
+}
+.main-logo img{
+  width: 165px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+@media only screen and (max-width: 991px) {
+  .banner-inner .react {
+    top: 149px;
+    right: 19px;
+    z-index: 1;
+}
+.banner-inner .js {
+  top: 375px;
+  left: 14px;
+  z-index: 1;
+}
+}
+@media only screen and (max-width: 1440px) {
+  .banner-inner .html {
+    left: 12%;
+  }
+  .banner-inner .tw {
+    right: 12.5%;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1680px){
+  .banner-inner .html {
+    left: 19%;
+  }
+  .banner-inner .tw {
+    right: 19.5%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+  .hello-w{
+  font-size: 26px !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .exprience-highlight {
+    display: flex;
+    margin: 50px auto 0;
+    width: 100%;
+    background-color: #272b3293;
+    box-shadow: var(--shadow-1);
+    max-width: 55%;
+    border-radius: 15px;
+    padding: 20px;
+  flex-direction: column;
+}
+.exprience-highlight .divider {
+    height: 2px;
+    width: 50%;
+    margin: 15px 0px;
+}
+.title-des {
+    font-size: 14px;
+}
 }
