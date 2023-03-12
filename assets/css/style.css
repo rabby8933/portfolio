@@ -11350,11 +11350,12 @@ body.template-color-1 {
   height: 100vh;
   min-height: 100vh;
   top: 0px;
-  width: 290px;
+  width: 270px;
   z-index: 1;
   transform: translateX(0px);
   border-right: 1px solid #121415;
-  background: #212428;
+  background-color: rgba(52,53,65);
+  /* background: #212428; */
   padding: 15px 20px 40px;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -11369,7 +11370,7 @@ body.template-color-1 {
   width: 100%;
   border-radius: 10px;
   margin: 0;
-  padding: 30px 0 0 10px;
+  padding: 20px 0 0 10px;
 }
 .left-header-style #sideNavs .primary-menu li {
   margin: 0;
@@ -11384,7 +11385,7 @@ body.template-color-1 {
   width: 100%;
   margin-left: 0;
   transition: var(--transition);
-  margin: 19px 0;
+  margin: 20px 0;
   font-size: 16px;
   transition: var(--transition);
 }
@@ -11408,7 +11409,7 @@ body.template-color-1 {
 .left-header-style .footer .social-share-style-1 {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 20px;
-  margin-top: 40px !important;
+  margin-top: 30px !important;
   text-align: center;
 }
 
@@ -11423,6 +11424,7 @@ body.template-color-1 {
   z-index: -1;
   top: 0;
   left: 0;
+  background-color: rgba(52,53,65);
 }
 
 .header-style-2 {
@@ -12592,6 +12594,7 @@ figcaption {
 -------------------------- */
 .section-separator {
   position: relative;
+  background-color: rgba(52,53,65);
 }
 .section-separator::after {
   position: absolute;
@@ -13507,7 +13510,7 @@ figcaption {
 }
 
 .page-wrapper-two {
-  margin-left: 290px;
+  margin-left: 275px;
 }
 @media only screen and (max-width: 1199px) {
   .page-wrapper-two {
@@ -13933,7 +13936,7 @@ figcaption {
     transition: 0.3s all ease-in-out;
     position: relative;
     border-radius: 10%;
-    background: #2d2e3542;
+    background: var(--background-color-1);
     box-shadow: var(--shadow-1);
     position: relative;
     z-index: 1;
@@ -13951,7 +13954,7 @@ figcaption {
 }
 @media only screen and (max-width: 479px) {
   .rn-service {
-    padding: 20px;
+    padding: 35px 20px;
   }
 }
 .rn-service a.over-link {
@@ -14042,6 +14045,7 @@ figcaption {
 
 .rn-service:hover{
   transform: translateY(-8px);
+  background-color: #272b3293 !important;
 }
 
 .modal-backdrop {
@@ -15754,7 +15758,7 @@ span.sr-only {
 -----------------------------*/
 .navigation-wrapper {
   margin-left: 10px;
-  box-shadow: var(--shadow-1);
+  /* box-shadow: var(--shadow-1); */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navigation-wrapper {
@@ -15784,6 +15788,7 @@ span.sr-only {
   }
 }
 .navigation-wrapper ul.nav li {
+  background-color: var(--background-color-1) !important;
   flex-basis: 33.33%;
   margin: 0;
 }
@@ -15828,6 +15833,7 @@ span.sr-only {
   }
 }
 .navigation-wrapper ul.nav li a {
+  background-color: var(--background-color-1);
   text-align: center;
   display: block;
   padding: 22px 10px;
@@ -15835,6 +15841,7 @@ span.sr-only {
   transition: var(--transition);
 }
 .navigation-wrapper ul.nav li a:hover, .navigation-wrapper ul.nav li a:focus, .navigation-wrapper ul.nav li a.active {
+  background-color: var(--background-color-1);
   box-shadow: var(--shadow-1);
   color: var(--color-primary);
 }
@@ -19826,7 +19833,7 @@ body.white-version .rn-btn-ulderline {
   position: absolute;
   top: 15px;
   right: 15px;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 500;
   color: #fafafa;
 }
@@ -20416,4 +20423,8 @@ body.white-version .rn-btn-ulderline {
 .title-des {
     font-size: 14px;
 }
+}
+
+.logo-area{
+  padding-top: 50px;
 }
